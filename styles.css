@@ -1,0 +1,140 @@
+* {
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+  padding: 0;
+  margin: 0;
+}
+
+body {
+  text-align: center;
+  font-family: 'Roboto', sans-serif;
+}
+
+.container {
+  margin: 0 auto;
+}
+
+.header {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-wrap: wrap;
+      flex-wrap: wrap;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  color: white;
+  background-color: #1a535c;
+  padding: 1rem;
+}
+
+.header__titulo h1 {
+  font-size: 3rem;
+}
+
+.header__titulo h2 {
+  color: #ff6b6b;
+  font-size: 2rem;
+}
+
+.header__avatar {
+  max-width: 200px;
+  width: 50%;
+}
+
+.titulo {
+  margin-bottom: 2rem;
+  font-size: 2rem;
+  font-family: 'Handlee', cursive;
+}
+
+.articulo {
+  padding: 2rem 1rem;
+}
+
+.articulo__texto {
+  font-size: 1.1rem;
+}
+
+.proyectos {
+  padding: 2rem 1rem;
+  background-color: #ffe66d;
+}
+
+.proyectos__lista {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+}
+
+.proyectos__lista .proyecto {
+  width: 100px;
+}
+
+.proyectos__lista .proyecto img {
+  display: block;
+  width: 100%;
+}
+
+.contacto {
+  padding: 2rem 1rem;
+}
+
+.contacto p {
+  margin-top: .5rem;
+}
+
+.contacto label {
+  display: block;
+  margin: 1rem 0;
+  width: 100%;
+}
+
+.contacto input, .contacto textarea {
+  width: 100%;
+  padding: .5rem;
+}
+
+.contacto button {
+  background: #ff6b6b;
+  display: block;
+  width: 100%;
+  padding: .5rem;
+  border: 0;
+  color: white;
+  font-weight: 800;
+}
+
+.contacto button:hover {
+  opacity: .8;
+}
+
+.footer {
+  padding: 1rem;
+  background-color: #1a535c;
+  color: white;
+  font-size: .85rem;
+  font-variant: all-petite-caps;
+}
+
+.footer img {
+  display: inline-block;
+  width: 25px;
+  margin: 5px;
+  -webkit-filter: saturate(0) brightness(10);
+          filter: saturate(0) brightness(10);
+}
+
+@media (min-width: 500px) {
+  .container {
+    max-width: 1200px;
+  }
+  .header {
+    -ms-flex-pack: distribute;
+        justify-content: space-around;
+  }
+}
+/*# sourceMappingURL=styles.css.map */

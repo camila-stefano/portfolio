@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Mi portfolio</title>
+  <link rel="stylesheet" href="./styles.css">
+  <link href="https://fonts.googleapis.com/css2?family=Handlee&display=swap" rel="stylesheet">
+</head>
+
+<body>
+  <div class="container">
+    <header class="header">
+      <div class="header__titulo">
+        <h1>¡Hola! <br>Soy Camila</h1>
+        <h2>Trainee Developer</h2>
+      </div>
+      <img class="header__avatar" src="./images/avatar.png">
+    </header>
+
+    <article class="articulo">
+      <p class="titulo">¿Quien soy?</p>
+      <div class="articulo__texto">
+        <p>Mi nombre completo es Camila Victoria Stefano Fioritto, tengo 26 años y actualmente trabajo como
+          administrativa
+          en Viviendas Roca, y estudio Desarrollo Web Full Stack en ACAMICA!</p>
+        <p>Hasta el momento aprendi como estructurar una pagina con HTML5 y darle vida con CSS. Estoy implementando SASS
+          y
+          sigo
+          practicando! </p>
+      </div>
+    </article>
+
+    <section class="proyectos">
+      <p class="titulo">Mis proyectos</p>
+      <div class="proyectos__lista">
+        <div class="proyecto"><img src="./images/proyecto-1.png" alt="Proyecto 1"></div>
+        <div class="proyecto"><img src="./images/proyecto-2.png" alt="Proyecto 2"></div>
+        <div class="proyecto"><img src="./images/proyecto-3.png" alt="Proyecto 3"></div>
+      </div>
+    </section>
+
+    <section class="contacto">
+      <form action="formulario.php" method="GET">
+        <p class="titulo">Contacto</p>
+        <legend>Si queres hablar, dejame tu mensaje!</legend>
+
+        <p>
+          <label for="nombre">Nombre</label>
+          <input type="text" name="nombre" id="nombre" />
+        </p>
+
+        <p>
+          <label for="mail">Email</label>
+          <input type="email" name="mail" id="mail" />
+          </select>
+        </p>
+
+        <p>
+          <textarea name="msj" rows="10" cols="30">Ingrese su mensaje aqui.</textarea>
+        </p>
+
+        <button type="submit">ENVIAR</button>
+      </form>
+    </section>
+  </div>
+
+  <footer class="footer">
+    <div class="redes">
+      <a title="linkedin" href="https://www.linkedin.com/in/camila-victoria-stefano-fioritto/" target="_blank"><img
+          src="./images/linkedin.png" alt="Linkedin" /></a>
+      <a title="instagram" href="https://www.instagram.com/camistefano/" target="_blank"><img
+          src="./images/instagram.png" alt="Instagram" /></a>
+      <a title="facebook" href="https://www.facebook.com/Cami.Stefano" target="_blank"><img src="./images/facebook.png"
+          alt="facebook" /></a>
+    </div>
+    Diseño por Camila Stefano
+  </footer>
+</body>
+
+</html>
